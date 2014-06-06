@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+    
+    <TableLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_newuser_pass1" android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/txtUserPass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" android:inputType="textPassword">
+
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckBox
+            android:id="@+id/cBGiris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cBshowPass" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+    </TableRow>
+
+</TableLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/btn_userGiris"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_weight="0.03"
+            android:background="@drawable/pos_button"
+            android:text="@string/btn_login" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" android:textColor="@color/white" android:textSize="18dp" android:textStyle="bold" android:typeface="serif"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="   " />
+
+        <Button
+            android:id="@+id/btn_login_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_weight="0.04"
+            android:background="@drawable/pos_button"
+            android:text="@string/btn_cancel" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" android:textColor="@color/white" android:textSize="18dp" android:textStyle="bold" android:typeface="serif"/>
+
+    </LinearLayout>
+    
+</LinearLayout>
+

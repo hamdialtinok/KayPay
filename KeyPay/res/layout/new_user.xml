@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+    
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_newuser_pass1"/>
+
+        <EditText
+            android:id="@+id/txtNewUserPass1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:maxLength="6"
+            android:inputType="textPassword">
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_newuser_pass2"/>
+
+        <EditText
+            android:id="@+id/txtNewUserPass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:maxLength="6"
+            android:ems="10" android:inputType="textPassword"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_newuser_bank"/>
+
+        <Spinner
+            android:id="@+id/spinNewUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:prompt="@string/prompt_banks" android:entries="@array/banks_array"/>
+
+    </TableRow>
+
+
+</TableLayout>
+
+    <TextView
+        android:id="@+id/txtNewUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_newuser_info" android:textColor="@color/red" android:textSize="20dp" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"/>
+
+     <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_newuser"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_weight="0.03"
+            android:background="@drawable/pos_button"
+            android:text="@string/txt_newuser_btn" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" android:textColor="@color/white" android:textSize="18dp" android:textStyle="bold" android:typeface="serif"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="   " />
+
+
+
+
+        <Button
+            android:id="@+id/btn_newuser_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_weight="0.04"
+            android:background="@drawable/pos_button"
+            android:text="@string/btn_cancel" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" android:textColor="@color/white" android:textSize="18dp" android:textStyle="bold" android:typeface="serif"/>
+
+    </LinearLayout>
+    
+</LinearLayout>
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt_banks">Banka Seçiniz!</string>
+    <string name="app_name">Keypay Ödeme</string>
+        
+    <string-array name="banks_array">
+        <item>AKBANK</item>
+        <item>FİNANSBANK</item>
+        <item>YAPIKREDİ</item>
+        <item>İŞ BANKASI</item>
+        <item>ZİRAAT BANKASI</item>
+        <item>HALKBANK</item>
+        <item>VAKIFBANK</item>
+        <item>GARANTİ BANKASI</item>
+        <item>DENİZ BANK</item>
+    </string-array>
+      <string-array name="lang_array">
+        <item>TR</item>
+        <item>EN</item>
+    </string-array>
+    <string-array name="lang_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="btn_getPass">Şifre Oluştur</string>
+    <string name="btn_About">Hakkında</string>
+    <string name="btn_Quit">Çıkış</string>
+    <string name="txt_about">\t <h2><b>KEYPAY</b></h2>  \n\n Versiyon 1.0.1 \n Copyright 2012 \n <b>facebook.com/keypay.official</b>
+ \n\n\t Keypay yeni bir mobil ödeme platformudur. Keypay ile kredi kartı olmadan, mobil cihazınız ile güvenli ve hızlı ödeme yapabilirsiniz.
+ \n\t Tek yapmanız gereken \'Şifre Oluştur\' tuşuna basmanız ve oluşan şifreyi pos cihazına girmeniz. Burada dikkat etmeniz gereken husular; hesabınız olan bankayı doğru seçmeniz ve
+ oluşan şifreyi 60 saniye içinde pos cihazına girmeniz.
+ \n\t Evet, Keypay ile ödeme yapmak bu kadar basit.  </string>
+    <string name="pd_getPass">Şifre Oluşturma!</string>
+    <string name="pd_loading">Oluşturuluyor...</string>
+    <string name="ad_quit_msg">Çıkmak İstediğinize Emin misiniz?</string>
+    <string name="ad_yes_msg">Evet</string>
+    <string name="ad_no_msg">Hayır</string>    
+    <string name="dialog_about">Uygulama Hakkında</string>
+    <string name="ad_network_msg">Bağlantı Hatası!</string>
+    <string name="ad_active_yes">Aktif Et</string>
+    <string name="ad_active_no">Aktif Etme</string>
+    <string name="pd_sendPass">Veriler Gönderiliyor!</string>
+    <string name="pd_waiting">Lütfen Bekleyiniz...</string>
+    <string name="txt_languages">Dili Seçiniz</string>
+    <string name="result_tm">Zaman Doldu! Lütfen Tekrar Deneyin</string>
+    <string name="result_rm">Yetersiz Bakiye!</string>
+    <string name="result_pw">Eşleşme Hatası! Lütfen Tekrar Deneyin</string>
+    <string name="result_null">HATA! Lütfen Tekrar Deneyin</string>
+    <string name="result_true">İşleminiz Başarıyla Gerçekleşti</string>
+    <string name="btn_pos_send">Gönder</string>
+    <string name="btn_pos_quit">Çıkış</string>
+    <string name="txt_pos_fee">Ücret</string>
+    <string name="txt_pos_code">Özel Kod</string>
+    <string name="txt_pos_pass">Şifre</string>
+    <string name="timeCount">Zaman Doldu!</string>
+    <string name="txt_settings">Ayarlar</string>       
+    <string name="txt_newuser_pass1">Şifre</string>
+    <string name="txt_newuser_pass2">Şifre Tekrar</string>
+    <string name="txt_newuser_bank">Banka</string>
+    <string name="txt_newuser_btn">EKLE</string>
+    <string name="cBshowPass">Şifreyi Göster</string>
+    <string name="btn_login">Giriş</string>
+    <string name="txt_newPassControl">Lütfen Şifrenizi giriniz!</string>
+    <string name="txt_newUserControl">Hatalı Şifre. Tekrar deneyin!</string>
+    <string name="txt_InfoControl">Lütfen bilgilerinizi eksiksiz giriniz!</string>
+    <string name="txt_PassControlFirst">Şifreler Eşleşmiyor. Tekrar deneyin!</string>
+    <string name="dialog_newuser">Yeni Kullanıcı Ekleme!</string>
+    <string name="btn_cancel">İptal</string>
+    <string name="service_newuser">Hata! Lütfen Tekrar Deneyin.</string>
+    <string name="txt_newuser_info">* Banka tarafından sağlanan şifreyi giriniz.</string>
+    <string name="dialog_bank_control">Hata! Banka ile Numaranız Eşleşmedi.</string>
+    
+    <string name="algorithm">AES</string>
+    <string name="getBit">32</string>
+    <color name="grey">#ACA899</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF7A7A</color>
+</resources>

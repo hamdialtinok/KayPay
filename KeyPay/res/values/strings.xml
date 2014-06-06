@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt_banks">Choose a Bank!</string>
+    <string name="app_name">Keypay Payment</string>
+        
+    <string-array name="banks_array">
+        <item>AKBANK</item>
+        <item>FİNANSBANK</item>
+        <item>YAPIKREDİ</item>
+        <item>İŞ BANKASI</item>
+        <item>ZİRAAT BANKASI</item>
+        <item>HALKBANK</item>
+        <item>VAKIFBANK</item>
+        <item>GARANTİ BANKASI</item>
+        <item>DENİZ BANK</item>
+    </string-array>
+      <string-array name="lang_array">
+        <item>TR</item>
+        <item>EN</item>
+    </string-array>
+    <string-array name="lang_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="btn_getPass">Get Password</string>
+    <string name="btn_About">About</string>
+    <string name="btn_Quit">Quit</string>
+    <string name="txt_about">\t <h2><b>KEYPAY</b></h2>  \n\n Versiyon 1.0.1 \n Copyright 2012 \n <b>facebook.com/keypay.official</b>
+ \n\n\t Keypay is a new mobile payment platform. With Keypay, you can pay safely and quickly without a credit card.
+ \n\t Simply press the \'Get Password\' button and enter your password into the POS device.  The points to be careful here; choose the right bank and enter the password to POS device  within 60 seconds.
+ \n\t Yes, do so simple paying with Keypay.</string>
+    <string name="pd_getPass">Getting Password!</string>
+    <string name="pd_loading">Loading..</string>
+    <string name="ad_quit_msg">Are you sure Quit?</string>
+    <string name="ad_yes_msg">Yes</string>
+    <string name="ad_no_msg">No</string>
+    <string name="dialog_about">About This App</string>
+    <string name="ad_network_msg">Connectivity ERROR!</string>
+    <string name="ad_active_yes">Activate</string>
+    <string name="ad_active_no">Not Activate</string>
+    <string name="pd_sendPass">Sending Informations!</string>
+    <string name="pd_waiting">Please Waiting...</string>
+    <string name="txt_languages">Languages</string>    
+    <string name="result_tm">Time is Up! Please Try Again</string>
+    <string name="result_rm">Insufficient Funds!</string>
+    <string name="result_pw">Mismatch! Please Try Again</string>
+    <string name="result_null">ERROR! Please Try Again</string>
+    <string name="result_true">Completed Successfully...</string>
+    <string name="btn_pos_send">Send</string>
+    <string name="btn_pos_quit">Quit</string>
+    <string name="txt_pos_fee">Fee</string>
+    <string name="txt_pos_code">Unique Code</string>
+    <string name="txt_pos_pass">Password</string>
+    <string name="timeCount">Time is UP!</string>
+    <string name="txt_settings">Settings</string>
+    <string name="txt_newuser_pass1">Password</string>
+    <string name="txt_newuser_pass2">Again Pass</string>
+    <string name="txt_newuser_bank">Bank</string>
+    <string name="txt_newuser_btn">ADD</string>
+    <string name="cBshowPass">Show Password</string>
+    <string name="btn_login">Login</string>
+    <string name="txt_newPassControl">Please Enter your Passwords!</string>
+    <string name="txt_newUserControl">Wrong Password. Please try again!</string>
+    <string name="txt_InfoControl">Please Enter your Informations!</string>
+    <string name="txt_PassControlFirst">Not Match the Passwords!</string>
+    <string name="dialog_newuser">Add New User</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="service_newuser">Error! Please Try Again.</string>
+    <string name="txt_newuser_info">* Enter the password which provided by your bank.</string>
+    <string name="dialog_bank_control">Error! Not match your bank with your number. </string>
+    
+    <string name="algorithm">AES</string>
+    <string name="getBit">32</string>
+    <color name="grey">#ACA899</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF7A7A</color>
+</resources>

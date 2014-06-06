@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/bg9"
+	    android:orientation="vertical"
+	    android:padding="5dp"
+	    android:gravity="center" >
+
+		<EditText
+		    android:id="@+id/txtFee"
+		    android:layout_width="190dp"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/txt_pos_fee"
+		    android:inputType="numberDecimal"/>
+
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="12dp" />
+
+	        <EditText
+	            android:id="@+id/txtUniqueCode"
+	            android:layout_width="190dp"
+	            android:layout_height="wrap_content"
+	            android:digits="0123456789"
+	            android:hint="@string/txt_pos_code"
+	            android:inputType="textPassword"
+	            android:maxLength="6" />
+
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="12dp" />
+
+	        <EditText
+	            android:id="@+id/txtPassword2"
+	            android:layout_width="190dp"
+	            android:layout_height="wrap_content"
+	            android:digits="0123456789"
+	            android:hint="@string/txt_pos_pass"
+	            android:inputType="textPassword"
+	            android:maxLength="6" />
+
+	        <RelativeLayout
+	            android:id="@+id/relativeLayout1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="95dp" >
+
+	            <Button
+	                android:id="@+id/btnClosePos"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentBottom="true"
+	                android:layout_alignParentLeft="true"
+	                android:layout_marginLeft="60dp"
+	                android:text="@string/btn_pos_quit" android:layout_marginBottom="20dp" android:width="80dp" android:height="40dp" android:textSize="20dp" android:textStyle="bold" android:background="@drawable/pos_button" android:textColor="@color/black" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" android:shadowColor="#FFFFFF"/>
+
+	            <Button
+	                android:id="@+id/btnSendfromPos"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentBottom="true"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginRight="60dp"
+	                android:text="@string/btn_pos_send" android:layout_marginBottom="20dp" android:height="40dp" android:width="80dp" android:textSize="20dp" android:textStyle="bold" android:background="@drawable/pos_button" android:shadowColor="#FFFFFF" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" android:textColor="@color/black"/>
+
+	        </RelativeLayout>
+	    
+    </LinearLayout>
